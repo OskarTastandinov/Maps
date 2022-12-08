@@ -2,8 +2,8 @@ package hw_2_task_2;
 import java.util.LinkedHashMap;
 import java.util.Map;
 
-public class hw_2_2 {
-    public static void main(String[] args) {
+public class HomeWork22 {
+public static void main(String[] args) {
         Map<Integer, String> addToCollection = new LinkedHashMap<>();
         addToCollection.put(2, "Номер2");
         addToCollection.put(1, "Номер1");
@@ -18,7 +18,9 @@ public class hw_2_2 {
 
         for (Map.Entry<Integer, String> entry : addToCollection.entrySet()) {
 
-            System.out.println(entry.getKey() + " " + entry.getValue());
+        System.out.println(entry.getKey() + " " + entry.getValue());
         }
-    }
+
+}
+
 }

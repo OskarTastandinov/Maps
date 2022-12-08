@@ -22,14 +22,7 @@ public class Recipe {
     }
 
     public void add(Product product, int amount) {
-        if (amount <= 0) {
-            amount = 1;
-            if (this.products.containsKey(product)) {
-                this.products.put(product, this.products.get(product) + amount);
-            }else {
-                this.products.put(product, amount);
-            }
-        }
+        products.put(product, products.getOrDefault(amount, 0) + amount);
     }
 
     public int getTotalPrice() {

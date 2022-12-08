@@ -2,7 +2,7 @@ package hw_2_task_1;
 
 import java.util.*;
 
-public class Task_2_1 {
+public class Task21 {
 
     Map<String, List<Integer>> list = new HashMap<>();
 
