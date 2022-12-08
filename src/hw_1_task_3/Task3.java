@@ -3,7 +3,6 @@ package hw_1_task_3;
 import java.util.HashMap;
 import java.util.Map;
 import java.util.Set;
-
 public class Task3 {
     Map<String, Integer> addMap = new HashMap<>();
 
